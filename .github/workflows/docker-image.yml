@@ -34,4 +34,4 @@ jobs:
 
     - name: Push Docker image
       run:  | 
-        docker push -t jefrysanchez1994/heroes-app:0.0.1 .
+        docker push jefrysanchez1994/heroes-app:0.0.1 .
